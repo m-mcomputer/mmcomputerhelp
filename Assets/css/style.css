@@ -1,7 +1,35 @@
+/* M&M Computer Help - Main Stylesheet */
+
 body {
-    background-color: lightgray;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
 }
 
 h1 {
-    color: blue;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+p {
+    color: #dddddd;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
 }

@@ -11,7 +11,7 @@ body {
 
 header {
     text-align: center;
-    padding: 40px 20px;
+    padding: 20px 10px 5px 10px;
 }
 
 h1 {
@@ -21,7 +21,7 @@ h1 {
 
 h2 {
     color: #ffffff;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 p {
@@ -32,4 +32,36 @@ main {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
+}
+/* Mission section formatting */
+#mission {
+    max-width: 900px;
+    margin: 15px auto;
+    padding: 20px;
+
+    background-color: #1d1d1d;
+    border-radius: 10px;
+
+    /* Puts a 2 pixel border around a shaded charcol colored box */
+    border: 2px solid #444444;
+    box-shadow: 0 0 12px rgba(0,0,0,.4);
+
+}
+/* about section formatting */
+#about {
+    max-width: 900px;
+    margin: 15px auto;
+    padding: 20px;
+    background-color: #1d1d1d;
+    border: 2px solid #444444;
+    box-shadow: 0 0 12px rgba(0,0,0,.4);
+}
+
+#contact {
+    max-width: 900px;
+    margin: 15px auto;
+    padding: 20px;
+    background-color: #1d1d1d;
+    border: 2px solid #444444;
+    box-shadow: 0 0 12px rgba(0,0,0,.4);
 }
